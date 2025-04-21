@@ -1,3 +1,9 @@
+-- --
+C:\laragon\bin\apache\httpd-xxx\conf\httpd.conf
+LoadModule ssl_module modules/mod_ssl.so
+LoadModule proxy_module modules/mod_proxy.so
+LoadModule proxy_http_module modules/mod_proxy_http.so
+
 -- go to C:\laragon\etc\bird_ssl --
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout shikra-papy.key -out shikra-papy.crt -config shikra-san.conf
 
