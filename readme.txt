@@ -7,6 +7,10 @@ LoadModule proxy_http_module modules/mod_proxy_http.so
 -- go to C:\laragon\etc\bird_ssl --
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout shikra-papy.key -out shikra-papy.crt -config shikra-san.conf
 
+-- enregistre les conf dans --
+C:\laragon\etc\apache2\sites-enabled
+
+
 -- ajout de certificat au windows --
 -- execute avec powerShell --
 Import-Certificate -FilePath "C:\laragon\etc\bird_ssl\shikra-papy.crt" -CertStoreLocation "Cert:\CurrentUser\Root"
