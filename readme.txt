@@ -16,6 +16,9 @@ C:\laragon\etc\apache2\sites-enabled
 Import-Certificate -FilePath "C:\laragon\etc\bird_ssl\shikra-papy.crt" -CertStoreLocation "Cert:\CurrentUser\Root"
 
 -- Ajouter cela dans C:\Windows\system32\drivers\etc\hosts --
-127.0.0.1      albatros.prx   #birds
-127.0.0.1      buse.prx       #birds
-127.0.0.1      cassi.prx      #birds
+127.0.0.1      albatros.prx   #birds for :8080
+127.0.0.1      buse.prx       #birds for :3000
+127.0.0.1      cassi.prx      #birds for :5173
+127.0.0.1      dorian.prx     #birds for :9200
+127.0.0.1      ewan.prx       #birds for :autres
+127.0.0.1      faucon.prx     #birds for :autres

@@ -34,6 +34,12 @@ DNS.3 = buse.prx
 DNS.4 = *.buse.prx
 DNS.5 = cassi.prx
 DNS.6 = *.cassi.prx
+DNS.7 = dorian.prx
+DNS.8 = *.dorian.prx
+DNS.9 = ewan.prx
+DNS.10 = *.ewan.prx
+DNS.11 = faucon.prx
+DNS.12 = *.faucon.prx
 "@ | Out-File -Encoding ASCII -FilePath $confPath
 
 # 3. Générer la clé privée et certificat
